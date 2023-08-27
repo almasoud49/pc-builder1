@@ -1,11 +1,11 @@
 import React from 'react';
-import Navbar from './UI/Navbar';
+import PcNavbar from './UI/PcNavbar';
 import Footer from './UI/Footer';
 
 const RootLayout = ({children}) => {
     return (
         <div>
-            <Navbar/>
+            <PcNavbar/>
             {children}
             <Footer/>
         </div>
